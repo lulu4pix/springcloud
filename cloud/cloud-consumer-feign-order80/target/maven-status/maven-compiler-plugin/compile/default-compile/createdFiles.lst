@@ -1,0 +1,3 @@
+com\shishi\springcloud\controller\PaymentFeignController.class
+com\shishi\springcloud\service\PaymentFeignService.class
+com\shishi\springcloud\FeignOrderMain80.class
