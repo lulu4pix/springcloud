@@ -1,0 +1,28 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lulu4pix/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          force-pull: true
+          username: 914104723@qq.com
+          password: Aa123567.
+      label: master
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/     #单机版
+
