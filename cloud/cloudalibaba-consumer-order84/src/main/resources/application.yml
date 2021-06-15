@@ -1,0 +1,4 @@
+
+#service name -- myself config
+payment:
+  service: http://payment-provider
